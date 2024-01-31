@@ -1,0 +1,166 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: fixed;
+    top: 30%;
+    margin: auto;
+    z-index: 1;
+    display: block;
+    scale: 80%;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+    opacity: 0.7;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+@media (min-width: 2000px) or (min-height: 1100px) {
+    .slick-prev,
+.slick-next {
+    top: 22%;
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+    .slick-next,
+    .slick-prev {
+      scale:120%;
+      
+    }
+    }
+
+    
+@media (max-aspect-ratio: 4/6.5) {
+    .slick-next,
+    .slick-prev {
+
+      top:25%
+    }
+    }
+
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.9;
+    scale: 82%;
+}
+
+@media (max-aspect-ratio: 4/5) {
+    .slick-prev:hover,
+    .slick-next:hover {
+      scale:120%;
+    }
+    }
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    
+    line-height: 1;
+    size: 40px;
+
+    opacity: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: 12%;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: url(files/arrowleft.png);
+    
+  
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: 16%;
+}
+
+
+@media (max-aspect-ratio: 4/5) {
+    .slick-next {
+      right: 21.4%;
+      
+    }
+    }
+
+    @media (max-aspect-ratio: 4/5) {
+        .slick-left {
+          left: 20%;
+          
+        }
+        }
+
+        @media (max-aspect-ratio: 4/6.5) {
+            .slick-next {
+              right: 20.8%;
+              
+            }
+            }
+    
+
+
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: url(files/arrowright.png);;
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+

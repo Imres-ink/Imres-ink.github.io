@@ -1,0 +1,773 @@
+/* deleting scroll thing */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+  }
+
+  :root {
+    --scale: 0.1;
+    --space: 8vmin;
+    --font-primary: "PT Sans", sans-serif;
+    --font-heading: "Railway", sans-serif;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Roboto:wght@300&display=swap');
+
+  @media (prefers-reduced-motion) {
+    :root {
+      --scale: 0;
+    }
+  }
+  
+  /* parallax "viewport" */
+  .parallax {
+    transform-origin: center top;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    transform-style:preserve-3d;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .parallax-layer img {
+    width: 100%
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+  
+   /*grijs*/
+    .layer1 {
+    transform: translateZ(-0.3px);
+    scale: 131%;
+     position: center;
+  }
+
+  .parallax-layer.layer1 {
+   
+    display: block;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(100, 100, 100);
+    margin-top: 170%;
+  }
+
+  .parallax-layer.layer1::after {
+    content: "";
+    position: absolute;
+    bottom: -38%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(
+      to bottom,
+      rgb(100, 100, 100),
+ 
+      rgba(0, 0, 0, 0)
+    );
+  } 
+
+  /*planten*/
+    .layer2 {
+    transform: translateZ(-0.3px);
+    scale:135%;
+    position: center;
+  }
+
+  .parallax-layer.layer2 {
+  
+    width: 100%;
+    height: 100%;
+    margin-top: 80%;
+
+  }
+   
+  
+  /*voorgrond*/
+    .layer3 {
+    transform: translateZ(-1.3px);
+    scale:235%;
+    
+    position: center;
+  }
+
+  .parallax-layer.layer3 {
+    
+    width: 100%;
+    height:100%;
+    margin-top: 40%;
+  }
+
+  /*olifant*/
+    .layer4 {
+    transform: translateZ(-2.25px);
+    scale:233%;
+    position: center;
+  }
+
+  .parallax-layer.layer4 {
+  
+    width: 100%;
+    height: 100%;
+    margin-top: 42%;
+  }
+
+    /*huisje*/
+    .layer5 {
+      transform: translateZ(-3px);
+      scale:270%;
+      position: center;
+    }
+
+    
+  .parallax-layer.layer5 {
+    
+    width: 100%;
+    height:100%;
+    margin-top: -25%;
+  }
+
+    /*achtergrond*/
+    .layer6 {
+      transform: translateZ(-5px);
+      scale: 610%;
+      position: center;
+    }
+
+    .parallax-layer.layer6 {
+    
+      width: 100%;
+      height:100%;
+    }
+  
+
+
+    /* 2de deel
+    
+    
+    Zeebed*/
+    .layer21 {
+      transform: translateZ(-0.6px);
+      scale:162%;
+
+    }
+  
+    .parallax-layer.layer21 {
+      
+      width: 100%;
+      height:100%;
+      margin-top: 210%;
+    }
+
+    /*drawing*/
+    .layer22 {
+      transform: translateZ(0.15px);
+      scale:85%;
+      
+      position: center;
+    }
+  
+    .parallax-layer.layer22 {
+      
+      width: 100%;
+      height:100%;
+      margin-top: 230%;
+    }
+
+
+    /* ----- bottom social media bar -----  */
+
+.media {
+  display: block;
+  background-color: #101010;
+  position: center;
+  margin-left: 0%;
+  margin-right: 0%;
+scale: 100%;
+}
+
+
+.parallax-layer.media {
+height:5.2%;
+margin-top: 658.5%;
+}
+.bar {
+  margin: auto;
+  width: 15%;
+}
+.insta {
+  position: absolute;
+}
+
+.linkedin {
+  margin-left: 5%;
+  position: absolute;
+}
+
+.youtube {
+  margin-left: 10%;
+  position: absolute;
+}
+
+.twitter {
+  margin-left: 15%;
+  position: absolute;
+}
+.media img {
+  scale: 100%;
+}
+
+.media a {
+  float: center;
+  display: block;
+  color:  rgb(211, 211, 211);
+  transition: all 0.3s ease;
+}
+
+.media a:hover {
+  background: rgb(255, 255, 255);
+}
+
+
+
+   /*slide show*/
+   .artwork {
+    transform: translateZ(-0.5px);
+    scale: 145%;
+    top: 125%;
+  }
+
+  .parallax-layer.artwork {
+   
+    display: block;
+    position: center;
+    align-content: top;
+    left: 5%;
+    right: 5%;
+    height: 80%;
+
+  }
+
+  .parallax-layer.text {
+   
+    display: block;
+    position: center;
+    align-content: top;
+    margin-top: 6vh;
+    left: 5%;
+    right: 5%;
+    height: 5%;
+
+  }
+
+
+
+   /* linksboven */
+
+  .parallax-layer.layertitle {
+    display: block;
+    position: center;
+    align-content: top;
+    width: 100%;
+    height: 15%;
+    padding: 3%;
+    background: 0;
+    }
+
+    .name {
+      position: absolute;
+      margin-top: 1em;
+      float: left;
+      margin-left: 4%;
+      font-weight: bold;
+      line-height: 0;
+    }
+
+
+    .section-title {
+    font-size: 1.5em;
+    color: rgb(20, 20, 20);
+  
+  }
+
+  .section-undertitle {
+ 
+    font-size: 1.1em;
+    margin-top: 2.7em;
+    margin-bottom: 0;
+    color: rgb(100, 100, 100);
+  }
+
+    /* click button */
+
+    .button {
+      margin-top: 1em;
+      float: right;
+      margin-right: 4%;
+      background-color:  rgb(100, 100, 100);
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 1.1em;
+      opacity: 1;
+      transition: 0.3s;
+      display: block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .button2 {
+      margin-top: 1em;
+      float: right;
+      margin-right: 4%;
+      background-color:  rgb(100, 100, 100);
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 1.1em;
+      opacity: 1;
+      transition: 0.3s;
+      display: block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    
+    .button:hover {background-color: rgb(20, 20, 20);}
+
+    .button2:hover {background-color: rgb(20, 20, 20);}
+  
+    .button:active { 
+      background-color: rgb(0, 0, 0);
+      scale: 98%;
+      transition: 200ms;
+      }
+
+      .button2:active { 
+        background-color: rgb(0, 0, 0);
+        scale: 98%;
+        transition: 200ms;
+        }
+
+
+    #down {
+      margin-top: 10%;
+      padding-bottom: 25%;
+     }
+    
+
+
+
+    /* textttt */
+
+  .container {
+    display: block;
+    position: relative;
+      margin:auto;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height:50%;
+    margin-bottom: 15%;
+  }
+
+  .parallax-layer.container {
+      
+    height:80%;
+    margin-top: 200%;
+  }
+
+  .rootstext {
+    position: relative;
+    display: block;
+    height: auto;
+    color: rgb(211, 211, 211);
+  }
+
+  .h2 {
+    text-align: center;
+    color: rgb(211, 211, 211);
+    font-size: 4em;
+    padding-top: 0em;
+    font-family: 'Merriweather', serif;
+  }
+
+  .h3 {
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: -0.8em;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+  }
+  
+  .p {
+    color: rgb(211, 211, 211);
+    text-align: center;
+    padding-top: 3em;
+    font-size: 1.0em;
+    font-family: 'Merriweather', serif;
+
+   
+  }
+
+  .psmall {
+    color: rgb(211, 211, 211);
+    text-align: center;
+    padding-top: 3em;
+    font-size: 1.0em;
+    font-family: 'Merriweather', serif;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  .interlude {
+    content: none;
+    height: 15%;
+  }
+
+  .pp {
+    position: relative;
+    text-align: center;
+    margin-top: 33%;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+    color: rgb(100, 100, 100);
+  }
+
+  @media (min-width: 2000px) or (min-height: 1100px) {
+    .pp {
+      margin-top: 24%;
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .pp {
+  position: relative;
+  text-align: center;
+  padding-top: 36vh;
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+}
+}
+
+@media (max-aspect-ratio: 4/6.5) {
+  .pp {
+  position: relative;
+  text-align: center;
+  padding-top: 26vh;
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+}
+}
+
+
+
+
+    /* ---------------------------- voor mobiele weergave -------------------------------- */
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.layer1
+  {
+    margin-top: 170%;
+}
+}
+
+@media (max-aspect-ratio: 4/6.5) {
+  .parallax-layer.layer1
+  {
+    margin-top: 180%;
+}
+}
+
+
+@media (max-aspect-ratio: 4/5) {
+.parallax-layer.layer2
+{
+  margin-top: 90%;
+}
+}
+
+@media (max-aspect-ratio: 4/6.5) {
+  .parallax-layer.layer2
+  {
+    margin-top: 98%;
+  }
+  }
+
+/*voorgrond */
+
+@media (max-aspect-ratio: 4/5) {
+.parallax-layer.layer3
+{
+  margin-top: 85%;
+}
+}
+
+
+/* olifant en huisje */
+
+@media (max-aspect-ratio: 4/5) {
+.layer4
+{
+  scale:250%;
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.parallax-layer.layer4
+{
+  margin-top: 40%;
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.parallax-layer.layer5
+{
+  margin-top: -50%;
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .artwork {
+
+    transform: translateZ(-0.2px);
+
+  }
+}
+
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.artwork {
+    top: 5%;
+    scale: 50%;
+    left: -90%;
+    right: -90%;
+    height: 100%;
+
+    }
+  }
+
+  @media (max-aspect-ratio: 4/6.5) {
+    .parallax-layer.artwork {
+      top: 4%;
+      scale: 56%;
+      left: -90%;
+      right: -90%;
+      height: 100%;
+  
+      }
+    }
+
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.container {
+    margin-top: 210%;
+    scale: 50%
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .container {
+
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 50%;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .h2 {
+    font-size: 3em;
+    padding-bottom: 0.2em;
+  }
+}
+
+
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.layer21 {
+    margin-top: 340%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.layer22 {
+    margin-top: 350%;
+  }
+}
+
+
+
+
+
+
+
+@media (max-aspect-ratio: 4/5) {
+
+  .name,
+  .button,
+  .button2 {
+    scale: 50%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .button:active
+  {
+    scale: 52%;
+  }
+}
+
+
+@media (max-aspect-ratio: 4/5) {
+  .button2:active
+  {
+    scale: 52%;
+  }
+}
+
+
+
+@media (max-aspect-ratio: 4/5) {
+  .name {
+    margin-top: 0.7em;
+    margin-left: -8%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .section-undertitle {
+    margin-top: 1.6em;
+    margin-left: -6%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .button {
+    margin-top: 0.0em;
+    margin-right: -5%;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .button2
+  {
+    margin-top: 0.0em;
+    margin-right: -14%;
+
+  }
+}
+
+
+@media (max-aspect-ratio: 4/5) {
+  .psmall {
+    margin-left: -10%;
+    margin-right: -10%;
+    text-align: center;
+  }
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .container {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-aspect-ratio: 4/5) {
+  .insta
+  {
+
+  margin-left: -15%;
+
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+  .linkedin
+  {
+
+  margin-left: -2.5%;
+
+}
+}
+@media (max-aspect-ratio: 4/5) {
+.youtube
+{
+
+margin-left: 12.5%;
+
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.twitter
+{
+
+margin-left: 25%;
+
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.media img
+{
+
+scale: 60%;
+
+
+}
+}
+
+
+
+@media (max-aspect-ratio: 4/5) {
+  .parallax-layer.media
+  {
+  
+ margin-top: 700%;
+ margin-bottom: 0%;
+ height:8%;
+
+  }
+  }
+
+
+  

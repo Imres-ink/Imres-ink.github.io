@@ -1,0 +1,73 @@
+<html> 
+
+
+<head>
+    <link rel="stylesheet" href="support.css", href="https://fonts.googleapis.com/css?family=Tangerine",>
+    <meta name="a blank" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+   <div class="layout">
+
+    <div class="mainart"> <img src="files/blank.jpg" alt="oops"> <div class="name">"Blank"</div>  </div>
+
+   <div class="story">
+    <div class="storytext">
+    <div class="h2"> Title </div>
+    <div class="p"> Lorem Ipsum </div>
+    <div class="empty"></div>
+    <div class="p">   another ipsum
+    </div>
+    <div class="empty3"></div>     <div class="empty3"></div>
+      <div class="p">    yup yup
+    </div>
+    <div class="empty"></div> 
+  <div class="p">    sisisisisisissiii  
+    </div>
+
+  <div class="p">    
+      
+    </div>
+      <div class="p">    
+      
+    </div>
+
+
+
+    <div class="p">
+        Want to know more about my proces and what tools I use? I explain this in depth in an interview with Blendergrid that was done right after completion. <a href="https://blendergrid.com/learn/articles/artistic-renders-with-imre-lukacs" target="_blank">Click here for the interview.</a>
+    </div>
+
+    <div class="linkingsale"> <a href="https://www.etsy.com/listing/1435533461/fantasy-prints-for-wall-decoration?click_key=1bdd60cf60c857a8c574599f367bb729424d5f3d%3A1435533461&click_sum=53bb1281&ref=shop_home_active_1" target="_blank"> Buy on Poster! </a></div>
+
+   </div>
+
+   <div class="rightimages"> <img src="files/future sketch.jpg" alt="oops"></div>
+   <div class="rightimages"> <a href="https://neotextcorp.com/culture/the-wonders-of-zdzislaw-beksinski" target="_blank"><img src="files/beksinski.jpg" alt="oops"></a></div>
+   <div class="rightimages"> <img src="files/wobbles.jpg" alt="oops"></div>
+   <div class="rightimages"> <img src="files/GIF2.gif" alt="oops"></div>
+
+  
+   </div>
+   <div class="media"> <div class="bar">
+    <div class="insta">      
+      <a href="https://www.instagram.com/imres.ink" target="_blank"> <img src="files/insticon.png"></a>
+    </div>
+    <div class="linkedin">      
+      <a href="https://www.linkedin.com/in/imre-lukacs/" target="_blank"><img src="files/linkicon.png"></a> 
+    </div>
+    <div class="youtube">      
+      <a href="https://www.youtube.com/@imrelukacs" target="_blank"><img src="files/youticon.png"></a>
+    </div>
+    <div class="twitter"> 
+      <a href="https://twitter.com/ImreALukacs" target="_blank"><img src="files/twiticon.png"></a>     
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+
+</html>

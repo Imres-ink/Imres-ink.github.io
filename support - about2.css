@@ -1,0 +1,250 @@
+  /* about page 2 */
+
+  .aboutlayout2 {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(218, 218, 218);
+    height: 280%;
+    width: 100%;
+  }
+  .middletext {
+    display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 74%;
+    
+    height: auto;
+    color: rgb(0, 0, 0);
+  }
+  
+  .h2 {
+    margin: auto;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    padding-top: 2.5em;
+  }
+
+    
+  .h3 {
+    margin: auto;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+      }
+  
+  
+  .p {
+    margin: auto;
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    text-align: justify;
+   
+  }
+  
+  .empty {
+  padding-top: 6vh;
+  }
+  .empty2 {
+    padding-top: 12vh;
+    }
+    .empty3 {
+      padding-top: 18vh;
+      }
+
+ 
+  .pf {
+    
+        display: block;
+        margin: auto;
+        max-width: 30%;
+         margin-top: 1%;
+     
+    }
+  
+    .pf img { width: 100%;}
+
+
+
+
+            /* ----- bottom social media bar -----  */
+
+.media {
+    display: block;
+    background-color: #393939;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+  height:5.2vh;
+  margin-bottom: 0%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  }
+  
+  .bar {
+    margin: auto;
+    width: 15%;
+  }
+
+  .homepage {
+   
+    float: left;
+    margin-left: 4%;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    background-color:  rgb(100, 100, 100);
+    border: none;
+    color: white;
+    padding: 0.4em 32px;
+    text-align: center;
+    font-size: 1.1em;
+    opacity: 1;
+    transition: 0.3s;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+    .homepage:hover {background-color: rgb(174, 174, 174);}
+  
+    .homepage:active { 
+      background-color: rgb(163, 163, 163);
+      scale: 98%;
+      transition: 200ms;
+  
+    }
+
+
+    #down {
+      margin-top: 10%;
+      padding-bottom: 25%;
+     }
+
+
+  
+  .insta {
+    position: absolute;
+  }
+  
+  .linkedin {
+    margin-left: 5%;
+    position: absolute;
+  }
+  
+  .youtube {
+    margin-left: 10%;
+    position: absolute;
+  }
+  
+  .twitter {
+    margin-left: 15%;
+    position: absolute;
+  }
+  .media img {
+    scale: 100%;
+  }
+  
+  .media a {
+    float: center;
+    display: block;
+    color:  rgb(211, 211, 211);
+    transition: all 0.3s ease;
+  }
+  
+  .media a:hover {
+    background: rgb(255, 255, 255);
+  }
+  
+
+  @media (max-aspect-ratio: 4/5) {
+    .aboutlayout2
+    {
+height: 260%;
+  }
+  }
+
+
+
+
+
+
+
+  @media (max-aspect-ratio: 4/5) {
+    .pf
+    {
+max-width: 70%;
+  }
+  }
+
+  @media (max-aspect-ratio: 4/5) {
+    .middletext
+    {
+      max-width: 82%;
+    }
+  }
+
+  @media (max-aspect-ratio: 4/5) {
+    .homepage
+    {
+      margin-left: 3%;
+      margin-top: 1.1em;
+      margin-bottom: 0.3em;
+      background-color:  rgb(100, 100, 100);
+      border: none;
+      color: white;
+      padding: 0.7em 1.0em;
+      
+      font-size: 1.1em;
+    }
+  }
+
+  @media (max-aspect-ratio: 4/5) {
+    .insta
+    {
+  
+    margin-left: -15%;
+  
+  }
+  }
+
+  @media (max-aspect-ratio: 4/5) {
+    .linkedin
+    {
+  
+    margin-left: -2.5%;
+  
+  }
+  }
+@media (max-aspect-ratio: 4/5) {
+.youtube
+{
+
+margin-left: 12.5%;
+
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.twitter
+{
+
+margin-left: 25%;
+
+}
+}
+
+@media (max-aspect-ratio: 4/5) {
+.media img
+{
+
+scale: 110%;
+padding-top: 1em;
+
+}
+}
