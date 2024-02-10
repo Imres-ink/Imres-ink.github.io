@@ -174,11 +174,16 @@
   @media (max-aspect-ratio: 4/5) {
     .aboutlayout2
     {
+height: 280%;
+  }
+  }
+
+  @media (max-aspect-ratio: 4/6) {
+    .aboutlayout2
+    {
 height: 240%;
   }
   }
-
-
 
   @media (max-aspect-ratio: 4/5) {
     .pf
