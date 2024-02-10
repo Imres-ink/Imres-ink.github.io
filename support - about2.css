@@ -8,7 +8,7 @@
     bottom: 0;
     left: 0;
     background-color: rgb(218, 218, 218);
-    height: 280%;
+    height: 290%;
     width: 100%;
   }
   .middletext {
@@ -70,7 +70,16 @@
 
 
 
+    .pf2 {
+    
+      display: block;
+      margin: auto;
+      max-width: 8%;
+       margin-top: 1%;
+      }
 
+       .pf2 img { width: 100%;}
+ 
             /* ----- bottom social media bar -----  */
 
 .media {
@@ -165,13 +174,9 @@
   @media (max-aspect-ratio: 4/5) {
     .aboutlayout2
     {
-height: 260%;
+height: 240%;
   }
   }
-
-
-
-
 
 
 
@@ -181,6 +186,14 @@ height: 260%;
 max-width: 70%;
   }
   }
+
+  @media (max-aspect-ratio: 4/5) {
+    .pf2
+    {
+max-width: 16%;
+  }
+  }
+
 
   @media (max-aspect-ratio: 4/5) {
     .middletext

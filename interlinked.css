@@ -476,11 +476,21 @@ margin-top: 658.5%;
 }
 }
 
+@media (max-aspect-ratio: 4/6) {
+  .pp {
+  position: relative;
+  text-align: center;
+  padding-top: 31vh;
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+}
+}
+
 @media (max-aspect-ratio: 4/6.5) {
   .pp {
   position: relative;
   text-align: center;
-  padding-top: 26vh;
+  padding-top: 31vh;
   font-size: 1.4em;
   color: rgb(0, 0, 0);
 }
@@ -498,12 +508,14 @@ margin-top: 658.5%;
 }
 }
 
-@media (max-aspect-ratio: 4/6.5) {
+
+@media (max-aspect-ratio: 4/6) {
   .parallax-layer.layer1
   {
-    margin-top: 180%;
+    margin-top: 190%;
 }
 }
+
 
 
 @media (max-aspect-ratio: 4/5) {
@@ -513,12 +525,14 @@ margin-top: 658.5%;
 }
 }
 
-@media (max-aspect-ratio: 4/6.5) {
+@media (max-aspect-ratio: 4/6) {
   .parallax-layer.layer2
   {
-    margin-top: 98%;
+    margin-top: 108%;
   }
   }
+
+
 
 /*voorgrond */
 
@@ -528,6 +542,14 @@ margin-top: 658.5%;
   margin-top: 85%;
 }
 }
+
+
+@media (max-aspect-ratio: 4/6) {
+  .parallax-layer.layer3
+  {
+    margin-top: 110%;
+  }
+  }
 
 
 /* olifant en huisje */
@@ -572,6 +594,20 @@ margin-top: 658.5%;
 
     }
   }
+
+
+  @media (max-aspect-ratio: 4/6) {
+    .parallax-layer.artwork {
+      top: 4%;
+      scale: 56%;
+      left: -90%;
+      right: -90%;
+      height: 100%;
+  
+      }
+    }
+
+
 
   @media (max-aspect-ratio: 4/6.5) {
     .parallax-layer.artwork {
