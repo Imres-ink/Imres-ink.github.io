@@ -167,6 +167,19 @@
   scale: 50%;
 }
 
+.scrollwide2 {
+  position: absolute;
+  display: block;
+  align-content: right;
+  margin-left: 80vw;
+  margin-top: 58vh;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fadeInOut 8s;
+  animation: fadeInOut 8s;
+  scale: 40%;
+}
+
 .scroll img {
   width: 60%;
 }
@@ -419,7 +432,8 @@ height: 190%;
 
 @media (max-aspect-ratio: 4/5) {
   .scroll,
-  .scrollwide
+  .scrollwide,
+  .scrollwide2
   {
     display: none;
   }
