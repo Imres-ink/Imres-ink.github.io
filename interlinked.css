@@ -204,14 +204,19 @@ body {
   display: block;
   background-color: #101010;
   position: center;
-  margin-left: 0%;
-  margin-right: 0%;
+  width: 100%;
 scale: 100%;
+height:5.6vh;
+margin-bottom: 0%;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
 }
 
 
 .parallax-layer.media {
-height:5.2%;
+
 margin-top: 658.5%;
 }
 .bar {

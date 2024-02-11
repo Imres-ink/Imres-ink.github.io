@@ -88,7 +88,7 @@
     position: absolute;
     margin: auto;
     width: 100%;
-  height:5.2vh;
+  height:5.6vh;
   margin-bottom: 0%;
   top: 0;
   right: 0;
@@ -99,6 +99,7 @@
   .bar {
     margin: auto;
     width: 15%;
+    margin-left: 41.4%;
   }
 
   .homepage {
@@ -222,11 +223,20 @@ max-width: 16%;
     }
   }
 
+
+  @media (max-aspect-ratio: 4/5) {
+    .bar
+    {
+      margin-left: 43%;
+    }
+  }
+
+
   @media (max-aspect-ratio: 4/5) {
     .insta
     {
   
-    margin-left: -15%;
+    margin-left: -10%;
   
   }
   }
@@ -235,7 +245,7 @@ max-width: 16%;
     .linkedin
     {
   
-    margin-left: -2.5%;
+    margin-left: 0%;
   
   }
   }
@@ -243,7 +253,7 @@ max-width: 16%;
 .youtube
 {
 
-margin-left: 12.5%;
+margin-left: 10%;
 
 }
 }
@@ -252,7 +262,7 @@ margin-left: 12.5%;
 .twitter
 {
 
-margin-left: 25%;
+margin-left: 20%;
 
 }
 }

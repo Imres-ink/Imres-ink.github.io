@@ -60,9 +60,6 @@
 }
 
 
-
-
-
 .mainart {
   display: block;
   margin: auto;
@@ -216,6 +213,7 @@ padding-top: 40vh;
     padding-top: 29vh;
     }
 
+
 .pf {
   position: relative;
   display: block;
@@ -293,7 +291,7 @@ padding-top: 40vh;
   position: absolute;
   margin: auto;
   width: 100%;
-height:5.2vh;
+height:5.6vh;
 margin-bottom: 0%;
 top: 0;
 right: 0;
